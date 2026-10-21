@@ -5,6 +5,7 @@ Lỗi ở Table (Bảng): Đoạn mã thiếu dòng phân cách (| :--- | :--- |
 Lỗi ở Task List: Các dòng task list bị dính liền dấu gạch ngang và dấu ngoặc vuông (-[x] và -[ ]), thiếu khoảng trắng ở giữa. Cú pháp chuẩn bắt buộc phải có khoảng trắng dạng - [x] và - [ ].
 
 2. Đoạn mã đã được sửa đúng chuẩn:
+
 | Tính năng | Trạng thái |
 | :--- | :--- |
 | Tra cứu lịch học | Xong |
