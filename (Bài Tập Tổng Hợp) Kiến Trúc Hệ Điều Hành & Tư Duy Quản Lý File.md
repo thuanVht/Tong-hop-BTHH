@@ -39,7 +39,7 @@
 
 **2. Dựa vào cấu trúc dự án ở mục 3e, hãy viết \*\*Relative Path\*\* để chèn file `logo.png` vào trong file `report.html` (sử dụng đúng ký hiệu `.` hoặc `..` nếu cần). Giải thích ngắn gọn vì sao dùng \*\*Relative Path\*\* ở đây sẽ giúp dự án không bị lỗi khi bạn nén thư mục `BaiTapLonIT101` gửi cho giảng viên qua máy khác.**
 
-* **<img src="assets/logo.png" alt="Logo">**
+* **img src="assets/logo.png" alt="Logo"**
 * **Sử dụng Relative Path giúp đường dẫn mang tính linh hoạt cao. Khi bạn nén thư mục BaiTapLonIT101 gửi cho giảng viên chạy trên máy tính khác (có thể ổ đĩa không phải là D:\\ mà là E:\\ hoặc C:\\), đường dẫn vẫn được giữ nguyên tính chính xác dựa trên cấu trúc thư mục nội bộ, tránh tuyệt đối lỗi File Not Found.**
 
 ## **Phần 4 — Quy tắc Đặt tên chuẩn**
