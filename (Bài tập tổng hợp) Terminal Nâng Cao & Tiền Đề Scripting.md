@@ -28,7 +28,7 @@ lệnh pipe : `Get-Content logs\server.log | Select-String "404"`
 ### Phần 3 – Toán tử chuyển hướng > và >>
 
 1. `Get-Content logs\server.log | Select-String "404" > reports\daily_report.txt`
-2. * Thêm dòng mới: `Get-Content logs\server.log | Select-String "404" >> reports\daily_report.txt`
+2.  Thêm dòng mới: `Get-Content logs\server.log | Select-String "404" >> reports\daily_report.txt`
 * Giải thích: Nếu dùng nhầm `>`, toàn bộ báo cáo cũ sẽ bị ghi đè (xóa sạch).
 
 
@@ -37,8 +37,8 @@ lệnh pipe : `Get-Content logs\server.log | Select-String "404"`
 
 ### Phần 4 – Shell Script và lệnh echo
 
-1. * `Write-Output "Dang loc log..."`
-* `Write-Output "=== LOG REPORT ===" > reports\daily_report.txt`
+1.  `Write-Output "Dang loc log..."`
+    `Write-Output "=== LOG REPORT ===" > reports\daily_report.txt`
 
 
 2. Nội dung `scripts\auto_report.ps1`:
@@ -55,8 +55,8 @@ Get-Content logs\server.log | Select-String "404" > reports\daily_report.txt
 
 ### Phần 5 – Viết, chạy và thẩm định Script AI
 
-1. * (a) `.\scripts\auto_report.ps1`
-* (b) `Get-Content reports\daily_report.txt`
+1.  (a) `.\scripts\auto_report.ps1`
+    (b) `Get-Content reports\daily_report.txt`
 
 
 2. * (a) Dòng nguy hiểm: `Remove-Item -Recurse -Force C:\*` -> Xóa sạch ổ C:\ và làm sập hệ thống.
