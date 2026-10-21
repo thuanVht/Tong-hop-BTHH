@@ -13,12 +13,14 @@ Dưới đây là đáp án ngắn gọn và chuẩn xác theo yêu cầu:
 ### Phần 2 – Lọc dữ liệu và Pipe
 
 1. `Get-Content logs\server.log | Select-String "ERROR"`
-2. Bảng:
-| Câu hỏi | Lệnh PowerShell |
-| :--- | :--- |
-| "File server.log đang nằm ở thư mục nào?" | `Get-ChildItem -Recurse -Filter server.log` |
-| "Bên trong file này có dòng nào chứa lỗi 404 không?" | `Get-Content logs\server.log | Select-String "404"` |
-*Lệnh Pipe:* `Get-Content logs\server.log | Select-String "404"`
+2. Câu hỏi: "File server.log đang nằm ở thư mục nào?"
+
+Lệnh: Get-ChildItem -Recurse -Filter server.log
+
+Câu hỏi: "Bên trong file này có dòng nào chứa lỗi 404 không?"
+
+Lệnh: Get-Content logs\server.log | Select-String "404"
+lệnh pipe : `Get-Content logs\server.log | Select-String "404"`
 3. `Get-ChildItem -Path . -Filter *.log -Recurse | Get-Content | Select-String "INFO" -NotMatch`
 
 ---
