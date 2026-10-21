@@ -1,4 +1,4 @@
----
+(Bài tập tổng hợp) Dựng README.md cho Dự Án---
 
 
 ---
@@ -28,7 +28,6 @@
 ## :rocket: Cài đặt và Kỹ thuật
 
 ### 1. Hướng dẫn cài đặt
-```bash
 git clone [https://github.com/clb-lap-trinh/smartcampus.git](https://github.com/clb-lap-trinh/smartcampus.git)
 npm install
 npm start
@@ -46,4 +45,4 @@ npm start
 | React Native | 0.74 | Xây giao diện đa nền tảng iOS/Android |
 | Axios | 1.6 | Gọi API lấy dữ liệu lịch học |
 4. Ghi chú về ký tự đặc biệt (Escape)
-Để hiển thị nguyên văn các ký tự đặc biệt như * hoặc # trong Markdown mà không bị biến thành định dạng, ta sử dụng dấu gạch chéo ngược \ ở phía trước.
+Để hiển thị nguyên văn các ký tự đặc biệt như * hoặc # trong Markdown mà không bị biến thành định dạng, ta sử dụng dấu gạch chéo ngược \ ở phía trước. CLB SmartCampus
